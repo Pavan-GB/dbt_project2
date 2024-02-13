@@ -1,0 +1,66 @@
+[0m19:17:29.868343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252DBCC4390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252DBCC4190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252DBCC5490>]}
+
+
+============================== 19:17:29.874027 | ecdc7bfa-d65a-4e3f-b5fb-075b3d92726e ==============================
+[0m19:17:29.874027 [info ] [MainThread]: Running with dbt=1.7.7
+[0m19:17:29.876169 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Hp\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init pipeline2', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:17:29.878167 [debug] [MainThread]: Starter project path: C:\Users\Pavan\Data_pipeline_2\venv\Lib\site-packages\dbt\include\starter_project
+[0m19:17:29.941419 [info ] [MainThread]: 
+Your new dbt project "pipeline2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:17:29.944416 [info ] [MainThread]: Setting up your profile.
+[0m19:18:16.571629 [info ] [MainThread]: Profile pipeline2 written to C:\Users\Hp\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:18:16.571629 [debug] [MainThread]: Command `dbt init` succeeded at 19:18:16.571629 after 46.77 seconds
+[0m19:18:16.571629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252DBBCB390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252DBDF0810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252DC675190>]}
+[0m19:18:16.571629 [debug] [MainThread]: Flushing usage events
+[0m19:31:44.026824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB3D906990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB3D6DB250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB3CF63510>]}
+
+
+============================== 19:31:44.042446 | 485cab91-c970-40e8-9989-f326d69ac30c ==============================
+[0m19:31:44.042446 [info ] [MainThread]: Running with dbt=1.7.7
+[0m19:31:44.042446 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Hp\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init pipeline2', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:31:44.042446 [info ] [MainThread]: A project called pipeline2 already exists here.
+[0m19:31:44.057934 [debug] [MainThread]: Command `dbt init` succeeded at 19:31:44.057934 after 0.11 seconds
+[0m19:31:44.059983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB3D91E950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB368A8050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB368A8C10>]}
+[0m19:31:44.060980 [debug] [MainThread]: Flushing usage events
+[0m19:32:31.354860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015E4C037750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015E4C035850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015E4C036010>]}
+
+
+============================== 19:32:31.371241 | 205a4f79-4298-4865-9fc3-3b3c7606f345 ==============================
+[0m19:32:31.371241 [info ] [MainThread]: Running with dbt=1.7.7
+[0m19:32:31.371241 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Hp\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init pipeline2', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:32:31.371241 [debug] [MainThread]: Starter project path: C:\Users\Pavan\Data_pipeline_2\venv\Lib\site-packages\dbt\include\starter_project
+[0m19:32:31.409902 [info ] [MainThread]: 
+Your new dbt project "pipeline2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:32:31.411186 [info ] [MainThread]: Setting up your profile.
+[0m19:33:18.147514 [info ] [MainThread]: Profile pipeline2 written to C:\Users\Hp\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:33:18.158508 [debug] [MainThread]: Command `dbt init` succeeded at 19:33:18.157510 after 46.85 seconds
+[0m19:33:18.159507 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015E4C0365D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015E4C036DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015E4C981710>]}
+[0m19:33:18.161506 [debug] [MainThread]: Flushing usage events
